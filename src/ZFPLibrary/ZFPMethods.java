@@ -43,15 +43,13 @@ import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 
-import com.thoughtworks.selenium.Selenium;
-
 import ZFPLibrary.ZFPConstants;
 
 public abstract class ZFPMethods extends ZFPConstants{
 	/**
 	 * @param args
 	 */
-	Selenium selenium;
+	//Selenium selenium;
 
 	WebDriver driver1;
 	//WebDriverWait waitforLoading;
