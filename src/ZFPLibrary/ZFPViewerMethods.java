@@ -88,7 +88,7 @@ public class ZFPViewerMethods extends ZFPMethods{
 			FirefoxProfile fp = new FirefoxProfile();
 			 fp.setPreference("webdriver.load.strategy", "unstable");
 				
-			driver1 = new FirefoxDriver();
+			driver1 = new FirefoxDriver(fp);
 			driver1.manage().window().maximize();
 			waitforoperation(15000);
 			break;
